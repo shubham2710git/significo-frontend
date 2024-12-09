@@ -1,0 +1,34 @@
+
+.vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+
+
+@keyframes spin-circle {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spin-animation {
+    animation: spin-circle 10s linear infinite;
+  } 
+
+
+
+  .listitem:hover {
+    color: rgb(112, 181, 249);
+  }
+
+  a.nev1:hover, a.nev1:active {text-decoration: underline white;}
+
+  .footernev :hover, a.nev1:active {text-decoration: underline white;}
+
+
+
+
+
